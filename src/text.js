@@ -1,1 +1,8 @@
-var a =20;
+const mapStateToProps = state => ({
+    ...state
+  });
+  
+  const mapDispatchToProps = dispatch => ({
+    startAction: () => dispatch(startAction),
+    stopAction: () => dispatch(stopAction)
+  });
